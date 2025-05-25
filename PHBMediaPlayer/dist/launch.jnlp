@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>PHBMediaPlayer</title>
+        <vendor>Zulfan</vendor>
+        <homepage href=""/>
+        <description>PHBMediaPlayer</description>
+        <description kind="short">PHBMediaPlayer</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="PHBMediaPlayer.jar" main="true"/>
+    </resources>
+    <application-desc main-class="phbmediaplayer.PHBMediaPlayer">
+    </application-desc>
+</jnlp>
